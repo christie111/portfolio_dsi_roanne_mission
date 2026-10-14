@@ -1,3 +1,20 @@
+*root{
+    --background: oklch(0.16 0.02 280);
+    --foreground: oklch(0.97 0.01 280);
+    --card: oklch(0.21 0.025 280);
+    --primary: oklch(0.7 0.2 300);
+    --primary-foreground: oklch(0.16 0.02 280);
+    --secondary: oklch(0.78 0.15 195);
+    --muted: oklch(0.25 0.02 280);
+    --muted-foreground: oklch(0.7 0.02 280);
+    --border: oklch(0.3 0.03 280);
+
+    --gradient-primary: linear-gradient(135deg, oklch(0.7 0.2 300), oklch(0.78 0.15 195));
+    --gradient-hero: radial-gradient(ellipse at top, oklch(0.7 0.2 300 / 0.25), transparent 60%),
+    radial-gradient(ellipse at bottom right, oklch(0.78 0.15 195 / 0.2), transparent 60%);
+    --shadow-glow: 0 0 60px -10px oklch(0.7 0.2 300 / 0.5);
+    --shadow-card: 0 10px 40px -15px oklch(0 0 0 / 0.5);
+}
 
 *{margin:0; padding: 0; box-sizing: border-box; border-color: var(--border);}
 
@@ -11,3 +28,9 @@ body{
     background-attachment: fixed;
     line-height: 1.6;
 }
+
+h1{
+    font-family: "Space Grotesk", system-ui, sans serif;
+    letter-spacing: -0.02rem;
+}
+
