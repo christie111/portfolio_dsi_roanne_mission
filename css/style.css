@@ -150,14 +150,6 @@ img{max-width: 100%; display: block;}
     align-items:center;
     padding: 6rem;
 }
-
-.hero-content{
-    min-height: 100vh;
-    display:flex;
-    align-items:center;
-    padding-top:6rem
-}
-
 .hero-content > *+*{margin-top: 1.5rem;}
 .badge{
     display:inline-flex;
