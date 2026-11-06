@@ -482,3 +482,26 @@ img{max-width: 100%; display: block;}
 }
 .tl-icon{flex-shrink:0;}
 .timeline-place{font-size:0.875rem; color: var(--muted-foreground);}
+
+/* ----------Certifications---------- */
+.cert-grid{display:grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;}
+.cert-card{
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    display:flex;
+    align-items:flex-start;
+    gap:1rem;
+    box-shadow: var(--shadow-card);
+    transition: border-color 0.2s;
+}
+
+.cert-card:hover{border-color:var(--primary);}
+.cert-card h3{ font-size: 1.125rem; margin-bottom: 0.25rem;}
+.cert-issuer{ font-size: 0.875rem; color: var(--muted-foreground);}
+.cert-year{
+    font-size: 0.75rem;
+    font-family:"JetBrains Mono", monospace;
+    color: var(--secondary);
+    margin-top: 0.5rem;
+}
+
